@@ -5,8 +5,30 @@
   box-sizing: border-box;
 }
 
+.next {
+    float:right;
+}
 
+.blank {
+  border: 10px inset red;
+}
 
+.blank {
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:0px;
+  margin-top:20px;
+}
 
-/* Start here */
+.blank {
+  padding-left:470px;
+  padding-right:100px;
+  padding-bottom:100px;
+  padding-top:100px;
+}
+
+.intentionally {
+  margin-left: 550px;
+}
+
 
