@@ -10,7 +10,7 @@
 }
 
 .blank {
-  border: 10px inset red;
+  border: 20px inset red;
 }
 
 .blank {
@@ -30,5 +30,8 @@
 .intentionally {
   margin-left: 550px;
 }
+
+.allow {
+  margin-left:100px;
 
 

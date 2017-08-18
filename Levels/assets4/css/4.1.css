@@ -5,10 +5,47 @@
   box-sizing: border-box;
 }
 .next {
-    float:right;
+    float: right;
+}
+
+.head {
+    text-align: center;
+    color: white;
+}
+
+.head {
+    background-color: darkred;
+    margin-top: 17px;
+    padding: 30px;
+}
+
+.head {
+    position: fixed;
+}
+
+.process {
+    font-family: sans-serif;
+    font-size: 150pt; 
+}
+
+.outcome {
+    font-family: monospace;
+    font-size: 20pt;
 }
 
 
+.column1 {
+    margin-left: 83%;
+}
 
-/* Start here */
+.column2 {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.body {
+    font-family: avenir;
+}
+
+
 
