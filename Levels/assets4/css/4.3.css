@@ -9,5 +9,31 @@
     float:right;
 }
 
+.begin {
+    font-family: garamond;
+    font-size: 197pt;
+    margin-left: 10px;
+}
 
+.mid {
+    font-family: avenir;
+}
 
+.mid {
+    position: absolute;
+}
+
+.mid {
+   margin-left: 900px;
+  margin-right:50px;
+  margin-bottom:0px;
+  margin-top:105px;
+}
+
+.mid {
+    text-align: right;
+}
+
+.mid {
+   font-size: 20pt;
+}
