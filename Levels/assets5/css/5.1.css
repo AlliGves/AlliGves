@@ -33,8 +33,8 @@
 
 @keyframes cool {
     0% {color: coral; margin-left:1%;}
-    25% {color: limegreen; margin-left:30%;}
-    50% {color: coral; margin-left: 60%;}
+    25% {color: limegreen;}
+    50% {color: coral;}
     75% {color: limegreen; margin-left:90%;}
     100% {color: coral;margin-left:1%}
     

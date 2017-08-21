@@ -5,10 +5,421 @@
   box-sizing: border-box;
 }
 
+* {
+    background-color: #021f2d;
+}
+
 .next {
     float:right;
 }
 
+* {
+    cursor: help;
+}
 
-/* Start here */
+.whole {
+    font-family: helvetica;
+    font-size: 100pt;
+    color: #021f2d;
+}
 
+.whole {
+    text-shadow: 2px 2px yellow;
+}
+
+.dont {
+    position: absolute;
+    margin-top: 10%;
+    margin-left:40%;
+}
+
+.clean {
+    position: absolute;
+    margin-top: 30%;
+    margin-left:4%;
+}
+
+.your {
+    position: absolute;
+    margin-top: 15%;
+    margin-left:75%;
+}
+
+.desk {
+    position: absolute;
+    margin-top: 1%;
+    margin-left:20%;
+}
+
+.You {
+    position: absolute;
+    margin-top: 25%;
+    margin-left:60%;
+}
+
+.might {
+    position: absolute;
+    margin-top: 10%;
+    margin-left:40%;
+}
+
+.find {
+    position: absolute;
+    margin-top: 3%;
+    margin-left:70%;
+}
+
+.something {
+    position: absolute;
+    margin-top: 6%;
+    margin-left:20%;
+}
+
+.in {
+    position: absolute;
+    margin-top: 13%;
+    margin-left:02%;
+}
+
+.the {
+    position: absolute;
+    margin-top: 10%;
+    margin-left:40%;
+}
+
+.morning {
+    position: absolute;
+    margin-top: 21%;
+    margin-left:57%;
+}
+
+.that {
+    position: absolute;
+    margin-top: 29%;
+    margin-left:16%;
+}
+
+.you {
+    position: absolute;
+    margin-top: 34%;
+    margin-left:40%;
+}
+
+.cant {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 28%;
+}
+
+.see {
+    position:absolute;
+    margin-top: 32%;
+    margin-left:68%;
+}
+
+.tonight {
+    position: absolute;
+    margin-top: 22%;
+    margin-left:26%;
+}
+
+@keyframes dont {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.dont {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: dont;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes clean {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.clean {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: clean;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes your {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.your {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: your;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes desk {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.desk {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: desk;
+    animation-duration: 3s;
+    animation-delay: 7s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes You {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.You {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: You;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes might {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.might {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: your;
+    animation-duration: 3s;
+    animation-delay: 11s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes find {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.find {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: find;
+    animation-duration: 3s;
+    animation-delay: 13s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes something {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.something {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: something;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes in {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.in {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: in;
+    animation-duration: 3s;
+    animation-delay: 17s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes the {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.the {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: the;
+    animation-duration: 3s;
+    animation-delay: 19s;
+    animation-iteration-count: 1;
+}
+
+@keyframes morning {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.morning {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: morning;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes that {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.that {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: your;
+    animation-duration: 3s;
+    animation-delay: 23s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes you {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.you {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: you;
+    animation-duration: 3s;
+    animation-delay: 25s;
+    animation-iteration-count: 1;
+}
+
+@keyframes cant {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.cant {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: cant;
+    animation-duration: 3s;
+    animation-delay: 27s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes see {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.see {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: your;
+    animation-duration: 3s;
+    animation-delay: 29s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes tonight {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    100% {opacity: 0}
+    
+}
+
+.tonight {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-name: tonight;
+    animation-duration: 3s;
+    animation-delay: 31s;
+    animation-iteration-count: 1;
+}
