@@ -9,7 +9,34 @@
     float:right;
 }
 
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.Listen {
+    font-family: didot bold;
+    font-size: 111pt;
+    color: floralwhite;
+    text-align: center;
+}
+
+.Every {
+    color: floralwhite;
+    font-family: avenir;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.Every {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+a {
+    color: floralwhite;
+    text-decoration:line-through;
+}
 
 
-/* Start here */
 

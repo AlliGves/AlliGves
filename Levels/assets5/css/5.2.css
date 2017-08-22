@@ -71,7 +71,7 @@
 
 .something {
     position: absolute;
-    margin-top: 6%;
+    margin-top: 26%;
     margin-left:20%;
 }
 
@@ -122,6 +122,19 @@
     margin-top: 22%;
     margin-left:26%;
 }
+
+.final {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 84pt;
+    color: #021f2d;
+    text-shadow: 2px 2px yellow;
+}
+
+a {
+    color: #021f2d;
+} 
+
 
 @keyframes dont {
     0% {opacity: 0}
@@ -422,4 +435,19 @@
     animation-duration: 3s;
     animation-delay: 31s;
     animation-iteration-count: 1;
+}
+
+
+@keyframes final {
+    from {opacity: 0}
+    to {opacity: 1}
+    
+}
+
+.final {
+    opacity: 0;
+    animation-name: final;
+    animation-duration: 3s;
+    animation-delay: 33s;
+    -webkit-animation-fill-mode: forwards;
 }
